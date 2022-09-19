@@ -6,11 +6,26 @@ import travel_04 from './assets/peru-5761765_960_720.jpg';
 import travel_05 from './assets/amazonas-peru.webp';
 import Hero from './components/Hero';
 import Slider from './components/Slider';
+import Navbar from './components/Navbar';
+import Section from './components/Section';
+import Footer from './components/Footer';
+
 
 function App() {
+  const navbarLinks = [
+    { url: "#", title: "Home" },
+    { url: "#trips", title: "Trips" },
+    { url: "#contacto", title: "Contacto" },
+  ];
+
+  const credits = {
+    year: new Date().getFullYear()
+  };
   return (
     <div className="App">
+      <Navbar navbarLinks={navbarLinks} />
       <Hero imageSrc={travel_01}/>
+      <h2 id="trips" className="subtitle">TRIPS</h2>
       <Slider 
         imageSrc={travel_02}
         title={"Arequipa-Perú"}
@@ -41,6 +56,9 @@ function App() {
         }
         flipped={true}
         />
+
+        <Section/>
+        <Footer credits ={credits}/>
       
     </div>
   );

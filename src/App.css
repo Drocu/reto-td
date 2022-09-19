@@ -4,3 +4,13 @@
   padding: 0;
   font-family:'Montserrat', sans-serif;
 }
+
+.subtitle{
+  display: flex;
+  background: black;
+  color: gold;
+  justify-content: center;
+  font-size: bold;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+}
