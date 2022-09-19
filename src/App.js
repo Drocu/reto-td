@@ -43,16 +43,16 @@ function App() {
         />
       <Slider 
         imageSrc={travel_04}
-        title={"El Lago Titicaca"}
+        title={"Machu Picchu"}
         subtitle={
-          " Este es uno de los lagos navegables más altos del planeta, así que no puede dejarse por fuera ir al a la nación andina. Lo que más ha atraído la atención de los turistas hacia él han sido sus inmensas riquezas naturales y las 3 preciosas islas de las que se compone"
+          " Pocos lugares hay en el Perú que despiertan tanto interés como el espectáculo que representa Machu Picchu para todo el que tenga la fortuna de ir alguna vez en la vida a esta belleza de sitio. Este es uno de esos lugares que siempre debe estar incluido en cualquier lista de destinos preferidos del país andino, así que aquí tenía que estar."
         }
         />
         <Slider 
         imageSrc={travel_05}
-        title={"El Lago Titicaca"}
+        title={"Iquitos"}
         subtitle={
-          " Este es uno de los lagos navegables más altos del planeta, así que no puede dejarse por fuera ir al a la nación andina. Lo que más ha atraído la atención de los turistas hacia él han sido sus inmensas riquezas naturales y las 3 preciosas islas de las que se compone"
+          " anta maravilla no parece ni siquiera del mundo real. Es desde este poblado desde donde se les da inicio a una buena parte de las expediciones que se llevan a cabo en los bosques vírgenes, ya sea través de la navegación del Rio Amazonas o una buena caminata por las increíbles reservas naturales de las que se compone este mágico lugar."
         }
         flipped={true}
         />

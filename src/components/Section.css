@@ -4,12 +4,12 @@
 }
 
 .section--secondary {
-    background-color: var(--tertiary-shadow-theme-color);
+    background-color: #fff
 }
 
 .section--contacto {
     position: relative;
-    /* background-image: url(../../assets/iquitos.webp); */
+    background-image: url(../assets/iquitos.webp);
     background-size: cover;
     background-position: center;
     
@@ -17,24 +17,25 @@
 }
 
 .section__title {
-    text-shadow: 0 0 0.5rem var(--secondary-highlight-color);
+    text-shadow: 0 0 0.5rem #ffd700;
+    color: #fff;
     font-weight: 800;
     font-size: 1.75rem;
     margin: 0;
 }
 
 .container {
-    max-width: var(--max-width-container);
+    max-width: 640px;
     margin: 0 auto;
-    padding-left: var(--padding-container);
-    padding-right: var(--padding-container);
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .container--element {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--padding-section);
+    gap: 1.5rem;
 }
 
 .form {
@@ -47,45 +48,44 @@
 .form__group {
     display: flex;
     box-shadow: 
-      0 0 0 0.125rem var(--reverse-primary-shadow-color),
-      0 0 0 0.25rem var(--reverse-primary-shadow-color);
-    border-radius: var(--primary-border-radius);
+      0 0 0 0.125rem #fff8,
+      0 0 0 0.25rem #fff8;
+    border-radius: 1rem;
     overflow: hidden;
     transition: border 0.25s;
 }
   
 .form__group:hover {
     box-shadow: 
-      0 0 0 0.125rem var(--secondary-button-color),
-      0 0 0 0.25rem var(--secondary-button-color);
+      0 0 0 0.125rem #ffd700,
+      0 0 0 0.25rem #ffd700;
 }
   
 .form__input {
     background-color: transparent;
     border: none;
-    color: var(--primary-text-color);
+    color: #fff;
     font-size: 1rem;
     padding: 0.5em;
     transition: color 0.25s;
 }
   
 .form__input:invalid {
-    color: var(--primary-invalid-color);
+    color: #dc143c;
 }
   
 .form__input::placeholder {
-    color: var(--secondary-text-color);
+    color:  #eee;
 }
 
 .button {
     display: inline-block;
-    background-color: var(--primary-theme-color);
-    border: 0.0625rem solid var(--primary-theme-color);
-    border-radius: var(--primary-border-radius);
-    color: var(--primary-text-color);
+    background-color: #20232a;
+    border: 0.0625rem solid #20232a;
+    border-radius: 1rem;
+    color:#fff;
     font-weight: 600;
     font-size: 1rem;
-    font-family: var(--primary-font-family);
     text-decoration: none;
     padding: 0.25em 1em;
     box-sizing: border-box;
@@ -94,18 +94,18 @@
 }
 
 .button:hover {
-    box-shadow: 0 0 0.25rem 0.25rem var(--primary-theme-color);
+    box-shadow: 0 0 0.25rem 0.25rem #fff;
     filter: brightness(112.5%);
 }
 
 .button--secondary {
-    background-color: var(--secondary-button-color);
-    border: 0.0625rem solid var(--secondary-button-color);
-    color: var(--reverse-primary-text-color);
+    background-color: #ffd700;
+    border: 0.0625rem solid #ffd700;
+    color: #000;
 }
 
 .button--secondary:hover {
-    box-shadow: 0 0 0.5rem 0 var(--secondary-button-color);
+    box-shadow: 0 0 0.5rem 0 #ffd700;
 }
 
 .menu {
@@ -117,7 +117,7 @@
 }
 
 .menu__img {
-    color: var(--primary-text-color);
+    color: #fff;
     display: block;
     font-size: 1.75rem;
     transition: transform 0.25s;
@@ -125,12 +125,13 @@
 
 .menu__img:hover {
     transform: scale(1.25);
-    color: var(--tertiary-shadow-theme-color);
+    color: #ffd700;
 }
 
 .card__contacto-text {
     font-weight: 500;
     text-align: center;
+    color: #fff;
     margin: 0;
     font-size: 1rem;
     font-weight: bold;
@@ -139,7 +140,7 @@
 
 .card__contacto-text:hover {
     transform: scale(1.25);
-    color: var(--tertiary-shadow-theme-color);
+    color: #ffd700;
 }
 
 @media (min-width: 768px) {
